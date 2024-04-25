@@ -1,0 +1,20 @@
+{
+   "manifest_version": 3,
+   "name": "YouTube Monday Catify",
+   "description": "Replace your YouTube thumbnails with Monday left me broken cat",
+   "version": "1.0.0",
+   "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["js/script.js"]
+      }
+    ],
+   "icons": {
+      "16": "img/cat16.png",
+      "32": "img/cat32.png",
+      "48": "img/cat48.png",
+      "64": "img/cat64.png",
+      "96": "img/cat96.png",
+      "128": "img/cat128.png"
+   }
+}
